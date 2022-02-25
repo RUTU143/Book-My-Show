@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include bookmyshow *.css
+recursive-include bookmyshow *.csv
+recursive-include bookmyshow *.html
+recursive-include bookmyshow *.ico
+recursive-include bookmyshow *.js
+recursive-include bookmyshow *.json
+recursive-include bookmyshow *.md
+recursive-include bookmyshow *.png
+recursive-include bookmyshow *.py
+recursive-include bookmyshow *.svg
+recursive-include bookmyshow *.txt
+recursive-exclude bookmyshow *.pyc
