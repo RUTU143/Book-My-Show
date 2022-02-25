@@ -9,9 +9,9 @@ from bookmyshow import __version__ as version
 setup(
 	name="bookmyshow",
 	version=version,
-	description="Book Movies",
+	description="Book Movie",
 	author="Rutuja Jadhav",
-	author_email="rutujajadhav.powerit@gmail.com",
+	author_email="jrutuja248@gmail.com",
 	packages=find_packages(),
 	zip_safe=False,
 	include_package_data=True,

@@ -3,10 +3,10 @@ from . import __version__ as app_version
 app_name = "bookmyshow"
 app_title = "Book My Show"
 app_publisher = "Rutuja Jadhav"
-app_description = "Book Movies"
+app_description = "Book Movie"
 app_icon = "octicon octicon-file-directory"
 app_color = "grey"
-app_email = "rutujajadhav.powerit@gmail.com"
+app_email = "jrutuja248@gmail.com"
 app_license = "MIT"
 
 # Includes in <head>

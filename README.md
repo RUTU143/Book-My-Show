@@ -1,6 +1,6 @@
 ## Book My Show
 
-Book Movies
+Book Movie
 
 #### License
 
