@@ -1,0 +1,80 @@
+[
+ {
+  "actor_name": " Kevin Conroy ",
+  "actress_name": "Christian Bale ",
+  "category": "Action Films",
+  "director_name": "Robert Pattinson",
+  "docstatus": 0,
+  "doctype": "Movie",
+  "language": "English",
+  "modified": "2022-03-28 12:53:35.700344",
+  "movie_name": "BatMan",
+  "movie_rating": 8,
+  "name": "BatMan"
+ },
+ {
+  "actor_name": "Prabhas",
+  "actress_name": "Pooja Hegade",
+  "category": "Drama Films",
+  "director_name": "Radha Krishna Kumar",
+  "docstatus": 0,
+  "doctype": "Movie",
+  "language": "Hindi",
+  "modified": "2022-03-28 12:53:12.684591",
+  "movie_name": "Radhe Shyam",
+  "movie_rating": 6,
+  "name": "Radhe Shyam"
+ },
+ {
+  "actor_name": "Chinmay mandelkar",
+  "actress_name": "Mrinal Kulkarni",
+  "category": "Action Films",
+  "director_name": "Digpal Lanjekar",
+  "docstatus": 0,
+  "doctype": "Movie",
+  "language": "Marathi",
+  "modified": "2022-03-28 12:52:30.217548",
+  "movie_name": "Pawankhind",
+  "movie_rating": 9,
+  "name": "Pawankhind"
+ },
+ {
+  "actor_name": "Akshay Kumar",
+  "actress_name": "Kriti Sanon",
+  "category": "Comedy Films",
+  "director_name": "Farhad Samji",
+  "docstatus": 0,
+  "doctype": "Movie",
+  "language": "Hindi",
+  "modified": "2022-03-28 12:52:02.936195",
+  "movie_name": "Bachchan Pandey",
+  "movie_rating": 6,
+  "name": "Bachchan Pandey"
+ },
+ {
+  "actor_name": "Ram Charan",
+  "actress_name": "Alia Bhatt",
+  "category": "Action Films",
+  "director_name": "SS Rajamouli",
+  "docstatus": 0,
+  "doctype": "Movie",
+  "language": "Hindi",
+  "modified": "2022-03-28 12:51:21.583734",
+  "movie_name": "RRR",
+  "movie_rating": 9,
+  "name": "RRR"
+ },
+ {
+  "actor_name": "Naveen Kumar Gowda",
+  "actress_name": "Tamannaah Bhatia ",
+  "category": "Action Films",
+  "director_name": "Prashanth Neel",
+  "docstatus": 0,
+  "doctype": "Movie",
+  "language": "Hindi",
+  "modified": "2022-03-28 12:51:33.213582",
+  "movie_name": "KGF Chapter 2",
+  "movie_rating": 9,
+  "name": "KGF Chapter 2"
+ }
+]

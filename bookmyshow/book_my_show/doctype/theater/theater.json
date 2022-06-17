@@ -1,0 +1,94 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "format:{theater_name}",
+ "creation": "2022-02-28 11:08:50.706835",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "theater_details",
+  "theater_name",
+  "address",
+  "contact_no",
+  "seat_details",
+  "total_chairs"
+ ],
+ "fields": [
+  {
+   "fieldname": "theater_details",
+   "fieldtype": "HTML",
+   "label": "Theater Details",
+   "options": "<h2>\n<center> Theater Details</center></h2>"
+  },
+  {
+   "fieldname": "theater_name",
+   "fieldtype": "Data",
+   "label": "Theater Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Address",
+   "reqd": 1
+  },
+  {
+   "fieldname": "contact_no",
+   "fieldtype": "Data",
+   "label": "Contact No"
+  },
+  {
+   "fieldname": "seat_details",
+   "fieldtype": "Table",
+   "label": "Seat Details",
+   "options": "Seat Details",
+   "reqd": 1
+  },
+  {
+   "fieldname": "total_chairs",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Total Chairs"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-03-31 12:42:46.877331",
+ "modified_by": "Administrator",
+ "module": "Book My Show",
+ "name": "Theater",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Administrator",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

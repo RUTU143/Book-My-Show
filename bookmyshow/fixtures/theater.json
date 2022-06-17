@@ -1,0 +1,314 @@
+[
+ {
+  "address": "Pimpri pune",
+  "contact_no": "1236561760",
+  "docstatus": 0,
+  "doctype": "Theater",
+  "modified": "2022-03-30 16:38:30.397319",
+  "name": "Carnival Cinema",
+  "seat_details": [
+   {
+    "categories": "Executive",
+    "charges": 700,
+    "parent": "Carnival Cinema",
+    "parentfield": "seat_details",
+    "parenttype": "Theater",
+    "total_seats": 30
+   },
+   {
+    "categories": "Gold",
+    "charges": 400,
+    "parent": "Carnival Cinema",
+    "parentfield": "seat_details",
+    "parenttype": "Theater",
+    "total_seats": 20
+   },
+   {
+    "categories": "Platinum",
+    "charges": 900,
+    "parent": "Carnival Cinema",
+    "parentfield": "seat_details",
+    "parenttype": "Theater",
+    "total_seats": 44
+   },
+   {
+    "categories": "Premium",
+    "charges": 800,
+    "parent": "Carnival Cinema",
+    "parentfield": "seat_details",
+    "parenttype": "Theater",
+    "total_seats": 55
+   },
+   {
+    "categories": "Silver",
+    "charges": 500,
+    "parent": "Carnival Cinema",
+    "parentfield": "seat_details",
+    "parenttype": "Theater",
+    "total_seats": 66
+   }
+  ],
+  "theater_name": "Carnival Cinema",
+  "total_chairs": 215
+ },
+ {
+  "address": "Bund Garden ",
+  "contact_no": "2537572748",
+  "docstatus": 0,
+  "doctype": "Theater",
+  "modified": "2022-03-30 16:39:09.046926",
+  "name": "inox",
+  "seat_details": [
+   {
+    "categories": "Executive",
+    "charges": 700,
+    "parent": "inox",
+    "parentfield": "seat_details",
+    "parenttype": "Theater",
+    "total_seats": 30
+   },
+   {
+    "categories": "Gold",
+    "charges": 400,
+    "parent": "inox",
+    "parentfield": "seat_details",
+    "parenttype": "Theater",
+    "total_seats": 54
+   },
+   {
+    "categories": "Platinum",
+    "charges": 900,
+    "parent": "inox",
+    "parentfield": "seat_details",
+    "parenttype": "Theater",
+    "total_seats": 67
+   },
+   {
+    "categories": "Premium",
+    "charges": 800,
+    "parent": "inox",
+    "parentfield": "seat_details",
+    "parenttype": "Theater",
+    "total_seats": 77
+   },
+   {
+    "categories": "Silver",
+    "charges": 500,
+    "parent": "inox",
+    "parentfield": "seat_details",
+    "parenttype": "Theater",
+    "total_seats": 87
+   }
+  ],
+  "theater_name": "inox",
+  "total_chairs": 315
+ },
+ {
+  "address": "Wagholi",
+  "contact_no": "3478353776",
+  "docstatus": 0,
+  "doctype": "Theater",
+  "modified": "2022-03-30 16:38:07.546629",
+  "name": "E Square",
+  "seat_details": [
+   {
+    "categories": "Executive",
+    "charges": 700,
+    "parent": "E Square",
+    "parentfield": "seat_details",
+    "parenttype": "Theater",
+    "total_seats": 40
+   },
+   {
+    "categories": "Gold",
+    "charges": 400,
+    "parent": "E Square",
+    "parentfield": "seat_details",
+    "parenttype": "Theater",
+    "total_seats": 20
+   },
+   {
+    "categories": "Platinum",
+    "charges": 900,
+    "parent": "E Square",
+    "parentfield": "seat_details",
+    "parenttype": "Theater",
+    "total_seats": 30
+   },
+   {
+    "categories": "Premium",
+    "charges": 800,
+    "parent": "E Square",
+    "parentfield": "seat_details",
+    "parenttype": "Theater",
+    "total_seats": 30
+   },
+   {
+    "categories": "Silver",
+    "charges": 500,
+    "parent": "E Square",
+    "parentfield": "seat_details",
+    "parenttype": "Theater",
+    "total_seats": 40
+   }
+  ],
+  "theater_name": "E Square",
+  "total_chairs": 160
+ },
+ {
+  "address": "Baner",
+  "contact_no": "2055673300",
+  "docstatus": 0,
+  "doctype": "Theater",
+  "modified": "2022-03-30 16:39:29.840003",
+  "name": "Fox Theater",
+  "seat_details": [
+   {
+    "categories": "Executive",
+    "charges": 700,
+    "parent": "Fox Theater",
+    "parentfield": "seat_details",
+    "parenttype": "Theater",
+    "total_seats": 30
+   },
+   {
+    "categories": "Gold",
+    "charges": 400,
+    "parent": "Fox Theater",
+    "parentfield": "seat_details",
+    "parenttype": "Theater",
+    "total_seats": 54
+   },
+   {
+    "categories": "Platinum",
+    "charges": 900,
+    "parent": "Fox Theater",
+    "parentfield": "seat_details",
+    "parenttype": "Theater",
+    "total_seats": 67
+   },
+   {
+    "categories": "Premium",
+    "charges": 800,
+    "parent": "Fox Theater",
+    "parentfield": "seat_details",
+    "parenttype": "Theater",
+    "total_seats": 78
+   },
+   {
+    "categories": "Silver",
+    "charges": 500,
+    "parent": "Fox Theater",
+    "parentfield": "seat_details",
+    "parenttype": "Theater",
+    "total_seats": 88
+   }
+  ],
+  "theater_name": "Fox Theater",
+  "total_chairs": 317
+ },
+ {
+  "address": "Tilak road pune ",
+  "contact_no": "4756475566",
+  "docstatus": 0,
+  "doctype": "Theater",
+  "modified": "2022-03-30 16:38:52.402074",
+  "name": "Neelayam",
+  "seat_details": [
+   {
+    "categories": "Executive",
+    "charges": 700,
+    "parent": "Neelayam",
+    "parentfield": "seat_details",
+    "parenttype": "Theater",
+    "total_seats": 33
+   },
+   {
+    "categories": "Gold",
+    "charges": 400,
+    "parent": "Neelayam",
+    "parentfield": "seat_details",
+    "parenttype": "Theater",
+    "total_seats": 38
+   },
+   {
+    "categories": "Platinum",
+    "charges": 900,
+    "parent": "Neelayam",
+    "parentfield": "seat_details",
+    "parenttype": "Theater",
+    "total_seats": 55
+   },
+   {
+    "categories": "Premium",
+    "charges": 800,
+    "parent": "Neelayam",
+    "parentfield": "seat_details",
+    "parenttype": "Theater",
+    "total_seats": 67
+   },
+   {
+    "categories": "Silver",
+    "charges": 500,
+    "parent": "Neelayam",
+    "parentfield": "seat_details",
+    "parenttype": "Theater",
+    "total_seats": 65
+   }
+  ],
+  "theater_name": "Neelam",
+  "total_chairs": 258
+ },
+ {
+  "address": "pune",
+  "contact_no": "7030737368",
+  "docstatus": 0,
+  "doctype": "Theater",
+  "modified": "2022-03-30 16:37:47.755550",
+  "name": "Victory Theator",
+  "seat_details": [
+   {
+    "categories": "Executive",
+    "charges": 500,
+    "parent": "Victory Theator",
+    "parentfield": "seat_details",
+    "parenttype": "Theater",
+    "total_seats": 50
+   },
+   {
+    "categories": "Gold",
+    "charges": 200,
+    "parent": "Victory Theator",
+    "parentfield": "seat_details",
+    "parenttype": "Theater",
+    "total_seats": 60
+   },
+   {
+    "categories": "Platinum",
+    "charges": 300,
+    "parent": "Victory Theator",
+    "parentfield": "seat_details",
+    "parenttype": "Theater",
+    "total_seats": 30
+   },
+   {
+    "categories": "Premium",
+    "charges": 250,
+    "parent": "Victory Theator",
+    "parentfield": "seat_details",
+    "parenttype": "Theater",
+    "total_seats": 40
+   },
+   {
+    "categories": "Silver",
+    "charges": 100,
+    "parent": "Victory Theator",
+    "parentfield": "seat_details",
+    "parenttype": "Theater",
+    "total_seats": 10
+   }
+  ],
+  "theater_name": "Victory Theator",
+  "total_chairs": 190
+ }
+]

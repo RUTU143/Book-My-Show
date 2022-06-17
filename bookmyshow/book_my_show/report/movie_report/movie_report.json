@@ -1,0 +1,31 @@
+{
+ "add_total_row": 0,
+ "columns": [],
+ "creation": "2022-03-25 09:47:38.458766",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "letter_head": "Movie Details",
+ "modified": "2022-03-26 09:55:35.434896",
+ "modified_by": "Administrator",
+ "module": "Book My Show",
+ "name": "Movie Report",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "query": "",
+ "ref_doctype": "Movie",
+ "report_name": "Movie Report",
+ "report_type": "Script Report",
+ "roles": [
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "BookMyShow User"
+  }
+ ]
+}

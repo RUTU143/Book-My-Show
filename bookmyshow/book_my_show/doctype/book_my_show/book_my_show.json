@@ -1,0 +1,246 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:BID-{###}",
+ "creation": "2022-02-28 11:05:12.617151",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "book_my_show",
+  "section_break_2",
+  "customer_id",
+  "column_break_4",
+  "customer_name",
+  "section_break_6",
+  "select_date",
+  "column_break_8",
+  "area",
+  "section_break_10",
+  "movies_name",
+  "column_break_12",
+  "theater_name",
+  "section_break_14",
+  "theater_amenities",
+  "section_break_16",
+  "from_date",
+  "column_break_18",
+  "to_date",
+  "section_break_20",
+  "select_slot",
+  "column_break_22",
+  "available_seats",
+  "section_break_24",
+  "book_ticket",
+  "section_break_26",
+  "grand_total",
+  "column_break_27",
+  "payment_mode",
+  "section_break_30",
+  "scan_no"
+ ],
+ "fields": [
+  {
+   "fieldname": "book_my_show",
+   "fieldtype": "HTML",
+   "label": "Book My Show",
+   "options": "<h1>Booking Details</h1><h1></h1>"
+  },
+  {
+   "fieldname": "payment_mode",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Payment Mode",
+   "options": "GP\nCredit Card\nPayTM"
+  },
+  {
+   "fieldname": "grand_total",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Grand Total"
+  },
+  {
+   "fieldname": "available_seats",
+   "fieldtype": "HTML",
+   "label": "Available Seats",
+   "options": "\n\n<label for=\"fname\">Available Seats:</label>\n  <input id=\"fname\" name=\"fname\" type=\"text\">",
+   "read_only": 1
+  },
+  {
+   "fieldname": "scan_no",
+   "fieldtype": "Barcode",
+   "label": " Scan No"
+  },
+  {
+   "fieldname": "book_ticket",
+   "fieldtype": "Table",
+   "label": "Book Ticket",
+   "options": "Book Tickets"
+  },
+  {
+   "fieldname": "customer_id",
+   "fieldtype": "Link",
+   "label": "Customer Id",
+   "options": "Customer Registration"
+  },
+  {
+   "fetch_from": "customer_id.first_name",
+   "fieldname": "customer_name",
+   "fieldtype": "Data",
+   "label": "Customer Name"
+  },
+  {
+   "fieldname": "movies_name",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Movie Name",
+   "options": "Movie",
+   "reqd": 1
+  },
+  {
+   "fetch_from": "theater_name.from_date",
+   "fieldname": "from_date",
+   "fieldtype": "Data",
+   "label": "From Date"
+  },
+  {
+   "fetch_from": "theater_name.to_date",
+   "fieldname": "to_date",
+   "fieldtype": "Data",
+   "label": "To Date"
+  },
+  {
+   "fetch_from": "theater_aminities.theater",
+   "fieldname": "theater_amenities",
+   "fieldtype": "Table",
+   "label": "Theater Amenities",
+   "options": "Facilities"
+  },
+  {
+   "fieldname": "theater_name",
+   "fieldtype": "Link",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "label": "Theater Name",
+   "options": "Movie Theater",
+   "reqd": 1
+  },
+  {
+   "fieldname": "select_date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fetch_from": "theater_name.slot",
+   "fieldname": "select_slot",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Slot"
+  },
+  {
+   "fieldname": "area",
+   "fieldtype": "Data",
+   "label": "Area"
+  },
+  {
+   "fieldname": "section_break_2",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_6",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_10",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_12",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_14",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_16",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_18",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_20",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_22",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_24",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_27",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_26",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_30",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-03-25 17:10:26.193876",
+ "modified_by": "Administrator",
+ "module": "Book My Show",
+ "name": "Book My Show",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Administrator",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

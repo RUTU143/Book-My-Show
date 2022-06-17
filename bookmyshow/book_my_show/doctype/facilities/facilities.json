@@ -1,0 +1,31 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-03-24 13:18:11.134289",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "facilities"
+ ],
+ "fields": [
+  {
+   "fieldname": "facilities",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Facilities"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-03-24 17:09:36.105800",
+ "modified_by": "Administrator",
+ "module": "Book My Show",
+ "name": "Facilities",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

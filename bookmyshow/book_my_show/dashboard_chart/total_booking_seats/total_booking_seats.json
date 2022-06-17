@@ -1,0 +1,36 @@
+{
+ "chart_name": "Total Booking Seats ",
+ "chart_type": "Report",
+ "creation": "2022-03-28 16:31:41.890285",
+ "custom_options": "{\"x_field\": \"select_date\", \"chart_type\": \"Bar\", \"y_axis_fields\": [{\"idx\": 1, \"__islocal\": true, \"name\": \"row 1\", \"y_field\": \"no_of_seats\", \"color\": \"#ECAD4B\"}, {\"idx\": 2, \"__islocal\": true, \"name\": \"row 2\", \"y_field\": \"total_price\", \"color\": \"#f01313\"}], \"y_fields\": [\"no_of_seats\", \"total_price\"], \"colors\": [\"#ECAD4B\", \"#f01313\"]}",
+ "docstatus": 0,
+ "doctype": "Dashboard Chart",
+ "filters_json": "{}",
+ "group_by_type": "Count",
+ "idx": 0,
+ "is_public": 0,
+ "is_standard": 1,
+ "modified": "2022-03-28 16:31:42.344143",
+ "modified_by": "Administrator",
+ "module": "Book My Show",
+ "name": "Total Booking Seats",
+ "number_of_groups": 0,
+ "owner": "Administrator",
+ "report_name": "Booking Report",
+ "time_interval": "Yearly",
+ "timeseries": 0,
+ "timespan": "Last Year",
+ "type": "Bar",
+ "use_report_chart": 0,
+ "x_field": "select_date",
+ "y_axis": [
+  {
+   "color": "#ECAD4B",
+   "y_field": "no_of_seats"
+  },
+  {
+   "color": "#f01313",
+   "y_field": "total_price"
+  }
+ ]
+}

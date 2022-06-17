@@ -1,0 +1,29 @@
+{
+ "cards": [],
+ "charts": [
+  {
+   "chart": "Movie booking",
+   "width": "Half"
+  },
+  {
+   "chart": "Movie Ratings",
+   "width": "Half"
+  },
+  {
+   "chart": "Seat Chart",
+   "width": "Half"
+  }
+ ],
+ "creation": "2022-03-26 16:45:49.336088",
+ "dashboard_name": "Movie Booking",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 1,
+ "is_standard": 1,
+ "modified": "2022-04-09 18:51:38.495118",
+ "modified_by": "Administrator",
+ "module": "Book My Show",
+ "name": "Movie Booking",
+ "owner": "Administrator"
+}

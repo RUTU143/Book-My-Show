@@ -1,0 +1,32 @@
+{
+ "chart_name": "Movie Ratings",
+ "chart_type": "Report",
+ "creation": "2022-03-29 11:52:04.530888",
+ "custom_options": "{\"x_field\": \"movie_name\", \"chart_type\": \"Line\", \"y_axis_fields\": [{\"idx\": 1, \"__islocal\": true, \"name\": \"row 1\", \"y_field\": \"movie_rating\", \"color\": \"#761ACB\"}], \"y_fields\": [\"movie_rating\"], \"colors\": [\"#761ACB\"]}",
+ "docstatus": 0,
+ "doctype": "Dashboard Chart",
+ "filters_json": "{}",
+ "group_by_type": "Count",
+ "idx": 0,
+ "is_public": 0,
+ "is_standard": 1,
+ "modified": "2022-03-30 16:00:35.115356",
+ "modified_by": "Administrator",
+ "module": "Book My Show",
+ "name": "Movie Ratings",
+ "number_of_groups": 0,
+ "owner": "Administrator",
+ "report_name": "Movie Details",
+ "time_interval": "Yearly",
+ "timeseries": 0,
+ "timespan": "Last Year",
+ "type": "Bar",
+ "use_report_chart": 0,
+ "x_field": "movie_name",
+ "y_axis": [
+  {
+   "color": "#761ACB",
+   "y_field": "movie_rating"
+  }
+ ]
+}

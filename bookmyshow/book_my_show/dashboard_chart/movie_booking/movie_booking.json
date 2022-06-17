@@ -1,0 +1,32 @@
+{
+ "chart_name": "Movie booking",
+ "chart_type": "Report",
+ "creation": "2022-03-26 17:30:14.841636",
+ "custom_options": "{\"x_field\": \"theater_name\", \"chart_type\": \"Percentage\", \"y_axis_fields\": [{\"idx\": 1, \"__islocal\": true, \"name\": \"row 1\", \"y_field\": \"total_price\", \"color\": \"#4463F0\"}], \"y_fields\": [\"total_price\"], \"colors\": [\"#4463F0\"]}",
+ "docstatus": 0,
+ "doctype": "Dashboard Chart",
+ "filters_json": "{}",
+ "group_by_type": "Count",
+ "idx": 0,
+ "is_public": 0,
+ "is_standard": 1,
+ "modified": "2022-03-30 16:15:12.491937",
+ "modified_by": "Administrator",
+ "module": "Book My Show",
+ "name": "Movie booking",
+ "number_of_groups": 0,
+ "owner": "Administrator",
+ "report_name": "Customer Details",
+ "time_interval": "Yearly",
+ "timeseries": 0,
+ "timespan": "Last Year",
+ "type": "Percentage",
+ "use_report_chart": 0,
+ "x_field": "select_date",
+ "y_axis": [
+  {
+   "color": "#4463F0",
+   "y_field": "total_price"
+  }
+ ]
+}

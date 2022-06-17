@@ -1,0 +1,31 @@
+{
+ "add_total_row": 0,
+ "columns": [],
+ "creation": "2022-03-29 09:16:09.102641",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "letter_head": "Movie Details",
+ "modified": "2022-03-31 10:59:19.347694",
+ "modified_by": "Administrator",
+ "module": "Book My Show",
+ "name": "Theater Details",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "query": "select p.theater_name,p.address,p.total_chairs,q.categories,q.total_seats from`tabTheater` p INNER JOIN `tabSeat Details` q ON p.name=q.parent group by theater_name;\n\n",
+ "ref_doctype": "Theater",
+ "report_name": "Theater Details",
+ "report_type": "Query Report",
+ "roles": [
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "Theater user"
+  }
+ ]
+}

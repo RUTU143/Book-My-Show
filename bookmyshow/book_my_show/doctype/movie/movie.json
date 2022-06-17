@@ -1,0 +1,97 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "format:{movie_name}",
+ "creation": "2022-02-28 11:12:42.985256",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "movie_details",
+  "movie_name",
+  "category",
+  "actor_name",
+  "actress_name",
+  "director_name",
+  "language",
+  "movie_rating"
+ ],
+ "fields": [
+  {
+   "fieldname": "movie_details",
+   "fieldtype": "HTML",
+   "label": "Movie Details",
+   "options": "<h1><center>Movie Details</center></h1>"
+  },
+  {
+   "fieldname": "movie_name",
+   "fieldtype": "Data",
+   "label": "Movie Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "category",
+   "fieldtype": "Select",
+   "label": "Category",
+   "options": "\nEntertainment Films\nDrama Films\nAction Films\nHorror Films\nComedy Films\nCrime & Gangster Films\nEpics/Historical/Period Films"
+  },
+  {
+   "fieldname": "actor_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Actor Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "actress_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Actress Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "director_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Director Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "language",
+   "fieldtype": "Select",
+   "label": "Language",
+   "options": "\nEnglish\nHindi\nMarathi\nBengali\nTelugu\nTamil\nItalian\nPolish\nGujarati\nGerman"
+  },
+  {
+   "fieldname": "movie_rating",
+   "fieldtype": "Int",
+   "label": "Movie Rating"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-03-31 12:42:06.862416",
+ "modified_by": "Administrator",
+ "module": "Book My Show",
+ "name": "Movie",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

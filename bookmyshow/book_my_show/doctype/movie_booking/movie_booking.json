@@ -1,0 +1,243 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:BID-{###}",
+ "creation": "2022-03-25 17:11:07.436420",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "book_my_show",
+  "section_break_2",
+  "customer_id",
+  "column_break_4",
+  "customer_name",
+  "section_break_6",
+  "select_date",
+  "column_break_8",
+  "areas_name",
+  "section_break_10",
+  "movies_name",
+  "column_break_12",
+  "theater_name",
+  "section_break_14",
+  "theater_amenities",
+  "section_break_16",
+  "from_date",
+  "column_break_18",
+  "to_date",
+  "section_break_20",
+  "select_slot",
+  "column_break_22",
+  "section_break_24",
+  "book_ticket",
+  "section_break_26",
+  "grand_total",
+  "column_break_27",
+  "payment_mode",
+  "section_break_30",
+  "scan_no"
+ ],
+ "fields": [
+  {
+   "fieldname": "book_my_show",
+   "fieldtype": "HTML",
+   "label": "Book My Show",
+   "options": "<h2>Booking Details</h2>"
+  },
+  {
+   "fieldname": "section_break_2",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "customer_id",
+   "fieldtype": "Link",
+   "label": "Customer Id",
+   "options": "Customer Registration"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "customer_id.first_name",
+   "fieldname": "customer_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Customer Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_6",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "column_break_8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_10",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "movies_name",
+   "fieldtype": "Link",
+   "label": "Movie Name",
+   "options": "Movie"
+  },
+  {
+   "fieldname": "column_break_12",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "theater_name",
+   "fieldtype": "Link",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "label": "Theater Name",
+   "options": "Movie Theater",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_14",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fetch_from": "theater_aminities.theater",
+   "fieldname": "theater_amenities",
+   "fieldtype": "Table",
+   "label": "Theater Amenities",
+   "options": "Facilities"
+  },
+  {
+   "fieldname": "section_break_16",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fetch_from": "theater_name.from_date",
+   "fieldname": "from_date",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "From Date"
+  },
+  {
+   "fieldname": "column_break_18",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "theater_name.to_date",
+   "fieldname": "to_date",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "To Date"
+  },
+  {
+   "fieldname": "section_break_20",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fetch_from": "theater_name.slot",
+   "fieldname": "select_slot",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Slot"
+  },
+  {
+   "fieldname": "column_break_22",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_24",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "book_ticket",
+   "fieldtype": "Table",
+   "label": "Book Ticket",
+   "options": "Book Tickets"
+  },
+  {
+   "fieldname": "section_break_26",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "grand_total",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Grand Total"
+  },
+  {
+   "fieldname": "column_break_27",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "payment_mode",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Payment Mode",
+   "options": "GP\nCredit Card\nPayTM"
+  },
+  {
+   "fieldname": "section_break_30",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "scan_no",
+   "fieldtype": "Barcode",
+   "label": " Scan No"
+  },
+  {
+   "fieldname": "areas_name",
+   "fieldtype": "Select",
+   "label": "Area",
+   "options": "\nAmbegaon Budruk.\nAundh.\nBaner.\nBavdhan Khurd.\nBavdhan Budruk.\nBalewadi.\nBhamburde (now called Shivajinagar)\nBibvewadi."
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-04-09 17:35:04.084580",
+ "modified_by": "Administrator",
+ "module": "Book My Show",
+ "name": "Movie Booking",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Administrator",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "track_seen": 1
+}

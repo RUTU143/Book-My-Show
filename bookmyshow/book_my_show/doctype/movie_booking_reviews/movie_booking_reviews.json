@@ -1,0 +1,237 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{customer_name}-{customer_id}",
+ "creation": "2022-03-30 11:21:47.825053",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "user_details",
+  "section_break_2",
+  "customer_id",
+  "column_break_4",
+  "customer_name",
+  "section_break_6",
+  "email_address",
+  "section_break_8",
+  "how_often_do_you_watch_movie",
+  "column_break_9",
+  "select_5",
+  "section_break_11",
+  "could_you_book_the_seat_of_your_choice",
+  "column_break_13",
+  "select_7",
+  "section_break_15",
+  "how_did_you_find_the_payment_method",
+  "column_break_17",
+  "select_8",
+  "section_break_19",
+  "would_you_transact_with_us_in_the_future",
+  "column_break_21",
+  "select_10",
+  "section_break_23",
+  "would_you_tell_your_friends_about_bookmyshow",
+  "column_break_25",
+  "select_12",
+  "section_break_27",
+  "how_would_you_rate_bookmyshow",
+  "column_break_29",
+  "select_16",
+  "section_break_31",
+  "is_there_anything_you_would_like_to_tell_us",
+  "text_15"
+ ],
+ "fields": [
+  {
+   "fieldname": "user_details",
+   "fieldtype": "HTML",
+   "label": "User Details",
+   "options": "<h5>User Details</h5><h5></h5>"
+  },
+  {
+   "fetch_from": "customer_id.first_name",
+   "fieldname": "customer_name",
+   "fieldtype": "Data",
+   "label": "Customer Name"
+  },
+  {
+   "fetch_from": "customer_id.email_id",
+   "fieldname": "email_address",
+   "fieldtype": "Data",
+   "label": "Email Address"
+  },
+  {
+   "fieldname": "how_often_do_you_watch_movie",
+   "fieldtype": "Heading",
+   "label": "How Often Do You Watch Movie?"
+  },
+  {
+   "fieldname": "could_you_book_the_seat_of_your_choice",
+   "fieldtype": "Heading",
+   "label": "Could you book the seat of your choice?"
+  },
+  {
+   "fieldname": "select_7",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "options": "\nYes, I could\nNo, it did not ask for the option\nNo, the page showed errors"
+  },
+  {
+   "fieldname": "how_did_you_find_the_payment_method",
+   "fieldtype": "Heading",
+   "label": "How did you find the Payment Method?"
+  },
+  {
+   "fieldname": "select_8",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "options": "\nEasy and Quick\nThe page doesn't load\nCould do with more options"
+  },
+  {
+   "fieldname": "would_you_transact_with_us_in_the_future",
+   "fieldtype": "Heading",
+   "label": "Would you transact with us in the future?"
+  },
+  {
+   "fieldname": "select_10",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "options": "\nYes, absolutely\nMaybe\nNo way"
+  },
+  {
+   "fieldname": "would_you_tell_your_friends_about_bookmyshow",
+   "fieldtype": "Heading",
+   "label": "Would you tell your friends about BookMyShow"
+  },
+  {
+   "fieldname": "select_12",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "how_would_you_rate_bookmyshow",
+   "fieldtype": "Heading",
+   "label": "How would you rate BookMyShow?",
+   "options": "\n\n\u272d\u272d\u272d\u272d\u272d\n\u272d\u272d\u272d\u272d\n\u272d\u272d\u272d\n\u272d\u272d\n\u272d"
+  },
+  {
+   "fieldname": "is_there_anything_you_would_like_to_tell_us",
+   "fieldtype": "Heading",
+   "label": "Is there anything you would like to tell us?"
+  },
+  {
+   "fieldname": "text_15",
+   "fieldtype": "Text",
+   "options": "\nmessage"
+  },
+  {
+   "fieldname": "select_5",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "options": "\nOnce a week\nOnce a month\nMore than 3 times a month\nLess than once a month"
+  },
+  {
+   "fieldname": "customer_id",
+   "fieldtype": "Link",
+   "label": "Customer ID",
+   "options": "Customer Registration"
+  },
+  {
+   "fieldname": "select_16",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "options": "\n\u272d\u272d\u272d\u272d\u272d\n\u272d\u272d\u272d\u272d\n\u272d\u272d\u272d\n\u272d\u272d\n\u272d"
+  },
+  {
+   "fieldname": "section_break_2",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_6",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_11",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_13",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_15",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_17",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_19",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_21",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_23",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_25",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_27",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_29",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_31",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_8",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-03-30 14:40:07.420857",
+ "modified_by": "Administrator",
+ "module": "Book My Show",
+ "name": "Movie Booking Reviews",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

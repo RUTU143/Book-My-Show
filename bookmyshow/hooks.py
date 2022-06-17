@@ -188,3 +188,11 @@ app_license = "MIT"
 # 	"bookmyshow.auth.validate"
 # ]
 
+fixtures = [
+    "Movie",
+    "Theater",
+    "Report",
+    "Client Script",
+    "Print Format", 
+    "Page"
+]

@@ -1,0 +1,75 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{theater_name}-{movie_name}",
+ "creation": "2022-03-23 09:19:58.461174",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "movie_name",
+  "theater_name",
+  "from_date",
+  "to_date",
+  "slot"
+ ],
+ "fields": [
+  {
+   "fieldname": "from_date",
+   "fieldtype": "Date",
+   "label": "From Date"
+  },
+  {
+   "fieldname": "to_date",
+   "fieldtype": "Date",
+   "label": "To Date"
+  },
+  {
+   "fieldname": "movie_name",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Movie Name",
+   "options": "Movie"
+  },
+  {
+   "fieldname": "theater_name",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Theater Name",
+   "options": "Theater"
+  },
+  {
+   "fieldname": "slot",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Slot"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-03-31 12:39:56.684837",
+ "modified_by": "Administrator",
+ "module": "Book My Show",
+ "name": "Movie Theater",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "search_fields": "theater_name, movie_name",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "theater_name"
+}

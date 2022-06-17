@@ -1,0 +1,55 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-03-03 18:44:46.015292",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "seat_types",
+  "price",
+  "no_of_seats",
+  "total_price"
+ ],
+ "fields": [
+  {
+   "fetch_from": "seat_types.price",
+   "fieldname": "price",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Price"
+  },
+  {
+   "fieldname": "no_of_seats",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "No of Seats",
+   "options": "\n"
+  },
+  {
+   "fieldname": "total_price",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Total price"
+  },
+  {
+   "fieldname": "seat_types",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Seats Type",
+   "options": "Theater Seats Types"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-04-09 18:50:00.494097",
+ "modified_by": "Administrator",
+ "module": "Book My Show",
+ "name": "Book Tickets",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
