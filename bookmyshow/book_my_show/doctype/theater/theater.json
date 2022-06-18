@@ -23,12 +23,6 @@
    "options": "<h2>\n<center> Theater Details</center></h2>"
   },
   {
-   "fieldname": "theater_name",
-   "fieldtype": "Data",
-   "label": "Theater Name",
-   "reqd": 1
-  },
-  {
    "fieldname": "address",
    "fieldtype": "Data",
    "in_list_view": 1,
@@ -52,11 +46,17 @@
    "fieldtype": "Int",
    "in_list_view": 1,
    "label": "Total Chairs"
+  },
+  {
+   "fieldname": "theater_name",
+   "fieldtype": "Data",
+   "label": "Theater Name",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-03-31 12:42:46.877331",
+ "modified": "2022-06-17 16:35:49.576467",
  "modified_by": "Administrator",
  "module": "Book My Show",
  "name": "Theater",
